@@ -21,7 +21,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_hash.each do |season, holiday|
     if season == :summer
       holiday.each do |fourth_of_july_key, item|
-        item[1]
+        return item[1]
       end
     end
   end
